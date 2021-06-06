@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./cssLibrary/bootstrap.min.css">
+    <link rel="stylesheet" href="./cssLibrary/fontawesome.all.css" />
+        <!-- won CSS --> 
+    <link rel="stylesheet" href="./cssLibrary/styleSheet.css" />
+    <!-- jQuery library -->
+    <script src="./jsLibrary/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="./jsLibrary/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="./jsLibrary/bootstrap.min.js"></script>
+    <script src="./jsLibrary/app.js"></script>
+    <title>Index</title>
+</head>
+
+<body>
+    <div id="root">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-6 first_page">
+                    <div class="logo_img">
+                        <a href="./mobile/logo.html" target="_self"><img src="./Images-Screens/Logo-Mark-White.png" class="img-fluid"
+                                alt="Responsive image"></a>
+                    </div>
+                    <div class="leftside_img">
+                        <img src="./Images-Screens/Image 6.png" class="img-fluid" alt="Responsive image">
+                    </div>
+                </div>
+                <div class="col-sm-6 first_page">
+                    <div >
+                        <nav>
+                            <div class="toggle-wrap">
+                                <span class="toggle-bar"></span>
+                                
+                            </div>
+                        </nav>
+                        <aside>
+                            <div class="nav_link">
+                                <a href="#">New Device Setup</a>
+                                <a href="#">Get Accessories</a>
+                                <a href="#">Support</a>
+                            </div>
+                            <div class="d-inline app_link">
+                                <div class="text-right">
+                                    <span>Get Our Companion App</span>
+                                </div>
+                                <a><img src="./Images-Screens/Apple.png"></a>
+                                <a><img src="./Images-Screens/Google.png"></a>
+                            </div>
+                        </aside>
+                    </div>
+                       
+                    <div class="container text-left nextpage_form">
+                    
+                        <div class="nextpage_head">
+                            <h6>EMM Settings</h6>
+                            <h4>Upload ISP QR Code</h4>
+                        </div>
+                        
+                        <div class="upload_file">
+                            <img src="./Images-Screens/UpArrow.png" class="img-fluid" alt="Responsive image"> 
+                         
+                            <h6 id="file-chosen">Drag Image Here to Upload</h6>
+                            
+                            <!-- actual upload which is hidden -->
+                            <input type="file" id="actual-btn" hidden/>
+                            <!-- our custom upload button -->
+                            <label for="actual-btn" class="file_btn">Select File</label>
+                           
+                        </div>
+                   
+                        <div class="nextpage_form_btn d-inline-block uploadPage_next">
+                            <a href="./notupload.html" target="_self" class="btn btn-primary next_btn">Next</a>
+                            <a href="./nextPage3.html" target="_self">Back</a>
+                        </div>
+                       
+                        
+                       
+                    </div>
+                  
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
